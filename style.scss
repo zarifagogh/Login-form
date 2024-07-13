@@ -1,0 +1,46 @@
+@import "__defaults";
+
+
+.container {
+    width: 50%;
+    height: 90vh;
+    background-image: linear-gradient(to right top, #2e2c2d, #5a2c4d, #802477, #9d17ac, #ae12eb);
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding: 100px;
+    button {
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(255, 184, 158);
+    }
+
+}
+#loginForm, #registerForm {
+    display: none;
+}
+
+#registerForm  {
+    margin: 20px 0;
+    input {
+        margin: 20px 0;
+       
+    }
+    button {
+        background-color: green;
+    } 
+}
+
+#loginForm {
+    margin: 20px 0;
+    input {
+        margin: 20px 0;
+       
+    }
+    button {
+        background-color: green;
+    } 
+}
